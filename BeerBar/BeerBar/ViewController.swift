@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buyBeerPaulanerButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func boughtBeerPaulanerButton(_ sender: Any) {
+        print("test")
+    }
+    
 }
 
