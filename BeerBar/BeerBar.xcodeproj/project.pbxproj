@@ -13,6 +13,8 @@
 		C755DE5D250CFDF5008FA730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C755DE5B250CFDF5008FA730 /* Main.storyboard */; };
 		C755DE5F250CFDF8008FA730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C755DE5E250CFDF8008FA730 /* Assets.xcassets */; };
 		C755DE62250CFDF8008FA730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C755DE60250CFDF8008FA730 /* LaunchScreen.storyboard */; };
+		C755DE6A250D11ED008FA730 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755DE69250D11ED008FA730 /* Beer.swift */; };
+		C755DE6C250D19A2008FA730 /* BeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755DE6B250D19A2008FA730 /* BeerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C755DE5E250CFDF8008FA730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C755DE61250CFDF8008FA730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C755DE63250CFDF8008FA730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C755DE69250D11ED008FA730 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		C755DE6B250D19A2008FA730 /* BeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C755DE55250CFDF5008FA730 /* AppDelegate.swift */,
 				C755DE57250CFDF5008FA730 /* SceneDelegate.swift */,
 				C755DE59250CFDF5008FA730 /* ViewController.swift */,
+				C755DE6B250D19A2008FA730 /* BeerManager.swift */,
+				C755DE69250D11ED008FA730 /* Beer.swift */,
 				C755DE5B250CFDF5008FA730 /* Main.storyboard */,
 				C755DE5E250CFDF8008FA730 /* Assets.xcassets */,
 				C755DE60250CFDF8008FA730 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				C755DE5A250CFDF5008FA730 /* ViewController.swift in Sources */,
 				C755DE56250CFDF5008FA730 /* AppDelegate.swift in Sources */,
 				C755DE58250CFDF5008FA730 /* SceneDelegate.swift in Sources */,
+				C755DE6C250D19A2008FA730 /* BeerManager.swift in Sources */,
+				C755DE6A250D11ED008FA730 /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

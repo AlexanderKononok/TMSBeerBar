@@ -15,10 +15,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
+    var beerPaulaner = Beer(name: "Paulaner", price: 3, countryOfOrigin: "Germany", amount: 30)
+    
     @IBAction func boughtBeerPaulanerButton(_ sender: Any) {
         print("test")
+        print(beerPaulaner.name)
     }
     
 }
