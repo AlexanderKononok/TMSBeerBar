@@ -18,12 +18,22 @@ class ViewController: UIViewController {
         
     }
 
-    var beerPaulaner = Beer(name: "Paulaner", price: 3, countryOfOrigin: "Germany", amount: 30)
-    
     @IBAction func boughtBeerPaulanerButton(_ sender: Any) {
-        print("test")
-        print(beerPaulaner.name)
+        BeerManager.shared.buyBeerPaulaner()
     }
     
+    @IBAction func boughtBeerZalatoeButton(_ sender: Any) {
+        BeerManager.shared.buyBeerZalatoe()
+    }
+    
+    @IBAction func startNewShift(_ sender: Any) {
+        print("******** New shift ***********")
+        BeerManager.shared.getProceeds()
+        BeerManager.shared.getAmountBeer()
+        BeerManager.shared.resetProceeds()
+        //BeerManager.shared.getProceeds()
+        BeerManager.shared.resetBeer()
+        print("******************************")
+    }
 }
 

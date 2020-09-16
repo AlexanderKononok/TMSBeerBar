@@ -21,4 +21,13 @@ class Beer {
         self.amount = amount
     }
     
+    func AmountOfBeer() -> Double {
+        return self.amount
+    }
+    
+    func getPriceBeer() -> Double {
+        return self.price
+    }
+ 
+    
 }
